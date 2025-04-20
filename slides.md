@@ -107,10 +107,10 @@ zoom: 0.65
 - 3.2 安装方法
     安装 vLLM 的主要方法是使用 pip ：
     * GPU 安装：对于配备 NVIDIA GPU 的系统，可以使用以下命令安装 vLLM 的预编译 wheel 包：
-    pip install vllm
+    `pip install vllm`
 
     * CPU 安装：如果您的系统没有 NVIDIA GPU 或者您希望仅使用 CPU 进行推理，可以使用以下命令安装 vLLM 的 CPU 版本：
-    pip install vllm --no-cuda
+    `pip install vllm --no-cuda`
 
     * 其他加速器：vLLM 还支持其他 AI 加速器，如 AMD GPU、Intel CPU、Gaudi 加速器等。针对这些加速器的具体安装说明，请参考 vLLM 的官方文档。
     * 使用 uv：一些文档建议使用 uv 作为更快的 Python 环境管理器来创建和管理环境，然后再使用 pip 安装 vLLM 。
